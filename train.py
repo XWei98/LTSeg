@@ -30,7 +30,7 @@ if __name__ == "__main__":
     freeze_batch_size = 3
     unfreeze_batch_size = 3
     freeze_train = False
-    init_lr = 5e-3
+    init_lr = 1e-4
     min_lr = init_lr * 0.01
     optimizer_type = "adam"
     momentum = 0.9
